@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:./yaca-back;AUTO_SERVER=TRUE
+     
+server:
+  port: 8080
+  ssl:
+    key-store: keystore.p12
+    key-store-password: keystore
+    keyStoreType: PKCS12
+    keyAlias: yaca-back
