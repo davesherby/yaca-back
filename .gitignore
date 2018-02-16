@@ -22,3 +22,9 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### database ###
+yaca*.db
+
+### logs ###
+yaca*.log
